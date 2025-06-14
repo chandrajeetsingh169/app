@@ -8,7 +8,7 @@ if "welcome_shown" not in st.session_state:
     st.info("👋 **Welcome!**\n\nThanks for visiting!")
 st.text("please select number by +/- or write and then press enter")
 st.title("calculator app")
-st.subheader("this is a simple calculator app")
+m=st.subheader("this is a simple calculator app")
 st.write("you can add, subtract, multiply and divide two numbers")
 st.divider()
 st.subheader("enter number: ")
@@ -37,6 +37,7 @@ if c:
   st.write("result is: ",z)
 elif a or b or c:
  st.write("result is: ",z)
+# Footer for the Streamlit app
 import streamlit.components.v1 as components
 
 components.html(
@@ -58,6 +59,3 @@ components.html(
     
     height=100,
 )
-
-
-
