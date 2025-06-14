@@ -7,7 +7,7 @@ if "welcome_shown" not in st.session_state:
     st.session_state["welcome_shown"] = True
     st.info("👋 **Welcome!**\n\nThanks for visiting!")
 st.text("please select number by +/- or write and then press enter")
-st.title("claculator app")
+st.title("calculator app")
 st.subheader("this is a simple calculator app")
 st.write("you can add, subtract, multiply and divide two numbers")
 st.divider()
