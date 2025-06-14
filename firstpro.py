@@ -37,6 +37,27 @@ if c:
   st.write("result is: ",z)
 elif a or b or c:
  st.write("result is: ",z)
+import streamlit.components.v1 as components
+
+components.html(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+    </style>
+    <div class="footer">
+        <p>Made with ❤️ for you</p>
+    </div>
+    """,
+    
+    height=100,
+)
 
 
 
