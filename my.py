@@ -4,7 +4,7 @@ import webbrowser
 st.title("Tab Manager")
 st.subheader("Manage your tabs here")
 st.markdown("""<hr style='border: 5px solid black;'>""",unsafe_allow_html=True)
-st.header("primary tab")
+st.header("fill link according your work")
 
 
 # Initialize session state for inputs
